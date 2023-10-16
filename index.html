@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .nav-link {
+            color: black !important;
+            border-right: 1px solid #dee2e6 !important;
+            border-top: 1px solid #dee2e6 !important;
+        }
+        .active {
+            color: red !important;
+        }
+        p {
+            margin-bottom: 0px;
+        }
+        h4 {
+            margin-top: 30px;
+            text-decoration: underline rgb(232, 228, 228);
+        }
+        #hust-img {
+            width: 100%;
+            height: 220px;
+            transition-duration: 0.3s;
+        }
+        #hust-img:hover {
+            transform: scale(1.1, 1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5" id="container">
+        <div class="row">
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="border rounded-4 shadow-sm">
+                    <div class="position-relative">
+                        <div class="overflow-hidden" style="height: 240px;">
+                            <img id="hust-img" src="hust.png" alt="hust">
+                        </div>
+                        <div class="overflow-hidden position-absolute rounded-circle" style="bottom:-70px; left: 20px; border: 5px solid white;">
+                            <img src="avatar.jpg" class=""alt="avatar" width="190px" height="190px" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="margin-top: 70px;" class="ms-3">
+                        <p>MS: 20204773</p>
+                        <p>Họ tên: Hà Bùi Phúc</p>
+                        <p>Lớp: Kỹ thuật máy tính 04-K65</p>
+                        <p>Email: phuc.hb204773@sis.hust.edu.vn</p>
+                        <p>Email cá nhân: Habuiphuc@gmail.com</p>
+                    </div>
+                </div>
+                <div class="border rounded-4 shadow-sm mt-3">
+                    <div class="tabs">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                              <a class="nav-link active" direct="trang-thai" aria-current="page" href="#">Trạng thái</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" direct="empty-text" href="#">Quản lý</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="ms-3 trang-thai">
+                                <p>Trạng thái học tập: Học</p>
+                                <p>CPA: 2.5</p>
+                                <p>Nợ: 15 TC</p>
+                                <p>Tích lũy: 97 TC</p>
+                                <p>Mức cảnh cáo: Mức 2</p>
+                                <p>Trình độ: năm thứ tư</p>
+                            </div>
+                            <div class="empty-text" style="display: none;">Không có gì</div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            
+            <div class="col-12 col-md-7 col-lg-8  border rounded-4 shadow-sm">
+                <div class="tabs">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" direct="ly-lich" aria-current="page" href="#">Lý lịch</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" direct="empty-text" href="#">Quyết định</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" direct="empty-text" href="#">Khen thưởng</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" direct="empty-text" href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" direct="empty-text" href="#">Nhận xét</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" direct="empty-text" href="#">Hoạt động tham gia</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="ly-lich">
+                            <h4>Thông tin cá nhân</h4>
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-12 col-lg-4">
+                                    <p>Ngày sinh: 20/02/2002</p>
+                                    <p>Nơi số CMTND: 000000000</p>
+                                    <p>Dân tộc: KINH</p>
+                                    <p>Ngày vào Đoàn:</p>
+                                  </div>
+                                  <div class="col-12 col-lg-4">
+                                    <p>Nơi sinh: THÁI BÌNH</p>
+                                    <p>Nơi cấp: THÁI BÌNH</p>
+                                    <p>Tôn giáo: Không</p>
+                                    <p>Ngày vào Đảng:</p>
+                                  </div>
+                                  <div class="col-12 col-lg-4">
+                                    <p>Giới tính: Nam</p>
+                                    <p>Ngày cấp:</p>
+                                    <p>Chi đoàn:</p>
+                                    <p>Đoàn viên</p>                              </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Đối tượng chính sách:</p>
+                                        <p>Số thẻ báo hiểm: 00000000</p>
+                                        <p>Địa chỉ thường trú: XÃ PHÚC KHÁNH, HUYỆN HƯNG HÀ, TỈNH THÁI BÌNH </p>
+                                        <p>Nơi ở hiện tại: Hẻm 254/71/1 Minh Khai Hà Nội Việt Nam</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>Thông tin gia đình</h4>
+                            <div class="container">
+                                <h5>Họ và tên cha: HÀ Đ D</h5>
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <p>Dân tộc: KINH</p>
+                                        <p>Nơi làm việc:</p>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <p>Năm sinh: 00-00-0000</p>
+                                        <p>Tôn giáo:</p>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <p>Quốc tịch: KINH</p>
+                                        <p>Nghề nghiệp: NÔNG DÂN</p>
+                                    </div>
+                                    <p>Địa chỉ thường trú:</p>
+                                    <p>Liên hệ: </p>
+                                </div>
+                                <h5>Họ và tên mẹ: BÙI T H</h5>
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <p>Dân tộc: KINH</p>
+                                        <p>Nơi làm việc:</p>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <p>Năm sinh: 00-00-0000</p>
+                                        <p>Tôn giáo:</p>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <p>Quốc tịch: KINH</p>
+                                        <p>Nghề nghiệp: NÔNG DÂN</p>
+                                    </div>
+                                    <p>Địa chỉ thường trú:</p>
+                                    <p>Liên hệ: </p>
+                                </div>
+                                <h5>Thông tin người thân khác:</h5>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <h5>Thuộc hộ:</h5>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <h5>Số sổ:</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="empty-text" style="display: none;">Rỗng</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h2>Biểu đồ học tập</h2>
+                <img src="diagram.png" alt="diagram" width="90%">
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2>Biểu đồ rèn luyện</h2>
+                <img src="diagram.png" alt="diagram" width="90%">
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script>
+    let navtabs = document.getElementsByClassName("tabs");
+    for (const item of navtabs) {
+        let navlinks = item.getElementsByClassName("nav-link");
+        for (const navlink of navlinks) {
+            navlink.addEventListener("click", e => {
+                for (link of navlinks) {
+                    link.classList.remove("active");
+                    console.log(link.getAttribute("direct"));
+                    item.querySelector("." + link.getAttribute("direct")).style.display="none";
+                }
+                e.target.classList.add("active");
+                item.getElementsByClassName(e.target.getAttribute("direct"))[0].style.display="block";
+
+            })
+        }
+    }
+</script>
+</html>
